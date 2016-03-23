@@ -80,6 +80,13 @@ Death to *split packages*.
 * Find a _smooth migration path_
 * Prepare today, migrate when ready
 
+== Gradle's software model
+
+* Idea : we're building software, so let's model software
+* Describe _what_ rather than _how_
+* Leverage conventions
+* Work in progress
+
 == A simple project
 
 ++++
@@ -148,6 +155,17 @@ Death to *split packages*.
     asciinema_player.core.CreatePlayer('player-container7', 'step7.json', { width: 114, height: 24 });
   </script>
 ++++
+
+== What's next?
+
+* Automatic toolchain selection
+* Support for `jimage` and `jlink`
+* Support for modulepath
+* Toolchain provisioning
+
+== Be involved
+
+* Specs can be found on https://github.com/gradle/gradle/blob/master/design-docs/jdk9-support.md[our GitHub repo]
 
 == Questions
 

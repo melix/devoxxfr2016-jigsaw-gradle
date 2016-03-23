@@ -92,7 +92,7 @@ Death to *split packages*.
 ++++
 <div id="player-container"></div>
   <script>
-    asciinema_player.core.CreatePlayer('player-container', 'step1.json', { width: 114, height: 24 });
+    asciinema_player.core.CreatePlayer('player-container', 'step1.json', { width: 114, height: 24, fontSize: 'medium' });
   </script>
 ++++
 
@@ -101,7 +101,7 @@ Death to *split packages*.
 ++++
 <div id="player-container2"></div>
   <script>
-    asciinema_player.core.CreatePlayer('player-container2', 'step2.json', { width: 114, height: 24 });
+    asciinema_player.core.CreatePlayer('player-container2', 'step2.json', { width: 114, height: 24, fontSize: 'medium' });
   </script>
 ++++
 
@@ -110,7 +110,7 @@ Death to *split packages*.
 ++++
 <div id="player-container3"></div>
   <script>
-    asciinema_player.core.CreatePlayer('player-container3', 'step3.json', { width: 114, height: 24 });
+    asciinema_player.core.CreatePlayer('player-container3', 'step3.json', { width: 114, height: 24, fontSize: 'medium' });
   </script>
 ++++
 
@@ -119,7 +119,7 @@ Death to *split packages*.
 ++++
 <div id="player-container4"></div>
   <script>
-    asciinema_player.core.CreatePlayer('player-container4', 'step4.json', { width: 114, height: 24 });
+    asciinema_player.core.CreatePlayer('player-container4', 'step4.json', { width: 114, height: 24, fontSize: 'medium' });
   </script>
 ++++
 
@@ -128,16 +128,25 @@ Death to *split packages*.
 ++++
 <div id="player-container5"></div>
   <script>
-    asciinema_player.core.CreatePlayer('player-container5', 'step5.json', { width: 114, height: 24 });
+    asciinema_player.core.CreatePlayer('player-container5', 'step5.json', { width: 114, height: 24, fontSize: 'medium' });
   </script>
 ++++
+
+=== Compile avoidance benefits
+
+* Doesn't recompile dependents if:
+** method body changes
+** parameter names change
+** method order changes
+** private method added/removed
+* In short: if API stable, do nothing
 
 == Declaring target platforms
 
 ++++
 <div id="player-container6"></div>
   <script>
-    asciinema_player.core.CreatePlayer('player-container6', 'step6.json', { width: 114, height: 24 });
+    asciinema_player.core.CreatePlayer('player-container6', 'step6.json', { width: 114, height: 24, fontSize: 'medium' });
   </script>
 ++++
 
@@ -152,7 +161,7 @@ Death to *split packages*.
 ++++
 <div id="player-container7"></div>
   <script>
-    asciinema_player.core.CreatePlayer('player-container7', 'step7.json', { width: 114, height: 24 });
+    asciinema_player.core.CreatePlayer('player-container7', 'step7.json', { width: 114, height: 24, fontSize: 'medium' });
   </script>
 ++++
 

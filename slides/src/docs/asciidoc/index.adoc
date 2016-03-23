@@ -188,7 +188,8 @@ image::GradleLogoLarge.png[]
 
 == Thank you!
 
-* Slides and code : https://github.com/melix/devoxxbe-groovy-dsls
-* Groovy documentation : http://groovy-lang.org/documentation.html
+* Slides and code : https://github.com/melix/bzh2016-jigsaw-gradle
+* Gradle documentation : http://gradle.org/documentation/
+* State of the module system: http://openjdk.java.net/projects/jigsaw/spec/sotms
 * Follow me: http://twitter.com/CedricChampeau[@CedricChampeau]
 

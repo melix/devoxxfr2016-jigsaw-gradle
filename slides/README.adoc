@@ -1,5 +1,0 @@
-= Building modern DSLs in Groovy
-
-Slides for talk given at Breizhcamp 2016, France.
-
-See http://melix.github.io/bzh2016-jigsaw-gradle

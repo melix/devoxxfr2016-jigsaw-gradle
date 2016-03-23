@@ -1,0 +1,157 @@
+= Résoudre le puzzle Jigsaw avec Gradle
+par Cédric Champeau (@CedricChampeau), Gradle Inc.
+2016-03-24
+:revnumber: {project-version}
+:example-caption!:
+ifndef::imagesdir[:imagesdir: images]
+ifndef::sourcedir[:sourcedir: ../java]
+:deckjs_transition: fade
+:navigation:
+:menu:
+:goto:
+:status:
+:adoctor: http://asciidoctor.org/[Asciidoctor]
+:gradle: http://gradle.org[Gradle]
+
+== Who am I
+
+[source,groovy]
+----
+speaker {
+    name 'Cédric Champeau'
+    company 'Gradle Inc'
+    oss 'Apache Groovy committer',
+    successes 'Static type checker',
+                    'Static compilation',
+                    'Traits',
+                    'Markup template engine',
+                    'DSLs'
+        failures Stream.of(bugs),
+        twitter '@CedricChampeau',
+        github 'melix',
+        extraDescription '''Groovy in Action 2 co-author
+Misc OSS contribs (Gradle plugins, deck2pdf, jlangdetect, ...)'''
+}
+----
+
+image::GradleLogoReg.png[]
+
+== Project Jigsaw
+
+* Modularity for the Java platform
+** *Reliable configuration* (goodbye _classpath_)
+** *Strong encapsulation* (goodbye _com.sun_)
+* Enforce strict boundaries between modules
+** compile-time
+** run-time
+
+== Jigsaw modules
+
+.Declaring a module
+----
+module com.foo.bar {
+    requires org.baz.qux;
+    exports com.foo.bar.alpha;
+    exports com.foo.bar.beta;
+}
+----
+
+== Why it's going to break your apps
+
+* Exports are package based
+* A non-exported package is not visible to consumers
+* 2 modules cannot export the same packages
+* 2 modules cannot have the same internal packages
+
+Death to *split packages*.
+
+== How Gradle will help?
+
+* Find a _smooth migration path_
+* Prepare today, migrate when ready
+
+== A simple project
+
+++++
+<div id="player-container"></div>
+  <script>
+    asciinema_player.core.CreatePlayer('player-container', 'step1.json', { width: 114, height: 24 });
+  </script>
+++++
+
+== Internal APIs
+
+++++
+<div id="player-container2"></div>
+  <script>
+    asciinema_player.core.CreatePlayer('player-container2', 'step2.json', { width: 114, height: 24 });
+  </script>
+++++
+
+== Internal APIs maintenance nightmare
+
+++++
+<div id="player-container3"></div>
+  <script>
+    asciinema_player.core.CreatePlayer('player-container3', 'step3.json', { width: 114, height: 24 });
+  </script>
+++++
+
+== Declaring internal APIs
+
+++++
+<div id="player-container4"></div>
+  <script>
+    asciinema_player.core.CreatePlayer('player-container4', 'step4.json', { width: 114, height: 24 });
+  </script>
+++++
+
+== Compile avoidance
+
+++++
+<div id="player-container5"></div>
+  <script>
+    asciinema_player.core.CreatePlayer('player-container5', 'step5.json', { width: 114, height: 24 });
+  </script>
+++++
+
+== Declaring target platforms
+
+++++
+<div id="player-container6"></div>
+  <script>
+    asciinema_player.core.CreatePlayer('player-container6', 'step6.json', { width: 114, height: 24 });
+  </script>
+++++
+
+== Why does Gradle help?
+
+* Add `targetPlatform 'java9'`
+* Generate module descriptor automatically?
+* Profit!
+
+== Trying it out
+
+++++
+<div id="player-container7"></div>
+  <script>
+    asciinema_player.core.CreatePlayer('player-container7', 'step7.json', { width: 114, height: 24 });
+  </script>
+++++
+
+== Questions
+
+image::qa.png[]
+
+== We're hiring!
+
+http://gradle.org/gradle-jobs/
+
+image::GradleLogoLarge.png[]
+
+== Thank you!
+
+* Slides and code : https://github.com/melix/devoxxbe-groovy-dsls
+* Groovy documentation : http://groovy-lang.org/documentation.html
+* Follow me: http://twitter.com/CedricChampeau[@CedricChampeau]
+

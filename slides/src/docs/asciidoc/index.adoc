@@ -47,7 +47,10 @@ image::GradleLogoReg.png[]
 
 == Jigsaw modules
 
-.Declaring a module
+=== Declaring a module
+
+.module-info.java
+[source,java]
 ----
 module com.foo.bar {
     requires org.baz.qux;
@@ -55,6 +58,13 @@ module com.foo.bar {
     exports com.foo.bar.beta;
 }
 ----
+
+=== A module
+
+* Declares dependencies onto other modules
+** optionally transitive (`public`)
+* Declares a list of packages it exports
+* will be found on _modulepath_
 
 == Why it's going to break your apps
 

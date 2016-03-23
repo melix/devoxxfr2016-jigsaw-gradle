@@ -732,7 +732,7 @@
     ],
     [
       0.188114,
-      "reeterI\rInternal.java "
+      "reeterInternal.java "
     ],
     [
       0.601342,
@@ -879,155 +879,11 @@
       "\u001b[1;32mcchampeau@cedric-xps15\u001b[01;34m step5 \u001b[31m \u001b[00m$\u001b[00m "
     ],
     [
-      0.459221,
-      "nano core/src/main/java/com/acme/internal/GreeterI\rInternal.java "
+      0.919221,
+      "nano core/src/main/java/com/acme/Greeter.java "
     ],
     [
-      0.913832,
-      "\u0008"
-    ],
-    [
-      0.189358,
-      "\u0008"
-    ],
-    [
-      0.125182,
-      "\u0008"
-    ],
-    [
-      0.153370,
-      "\u0008"
-    ],
-    [
-      0.144138,
-      "\u0008"
-    ],
-    [
-      0.110572,
-      "\u0008"
-    ],
-    [
-      0.685945,
-      "\u0008\u001b[1P"
-    ],
-    [
-      0.686844,
-      "\u0008\u001b[1P"
-    ],
-    [
-      0.161549,
-      "\u0008\u001b[1P"
-    ],
-    [
-      0.138868,
-      "\u0008\u001b[1P"
-    ],
-    [
-      0.129736,
-      "\u0008\u001b[1P"
-    ],
-    [
-      0.150086,
-      "\u0008\u001b[1P"
-    ],
-    [
-      0.138569,
-      "\u0008\u001b[1P"
-    ],
-    [
-      0.175026,
-      "\r\u001b[1P"
-    ],
-    [
-      0.411398,
-      "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
-    ],
-    [
-      0.197248,
-      "\u0008"
-    ],
-    [
-      0.501476,
-      "\u0008"
-    ],
-    [
-      0.051861,
-      "\u0008"
-    ],
-    [
-      0.051913,
-      "\u0008"
-    ],
-    [
-      0.050460,
-      "\u0008"
-    ],
-    [
-      0.196023,
-      "\u0008"
-    ],
-    [
-      0.308199,
-      "\u0008Greeter.j\u001b[1P\u001b[A\r\u001b[1;32mcchampeau@cedric-xps15\u001b[01;34m step5 \u001b[31m \u001b[00m$\u001b[00m \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
-    ],
-    [
-      0.500302,
-      "\u0008Greeter.ja\u001b[1P\u001b[A\r\u001b[1;32mcchampeau@cedric-xps15\u001b[01;34m step5 \u001b[31m \u001b[00m$\u001b[00m \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
-    ],
-    [
-      0.050243,
-      "\u0008Greeter.jav\u001b[1P\u001b[A\r\u001b[1;32mcchampeau@cedric-xps15\u001b[01;34m step5 \u001b[31m \u001b[00m$\u001b[00m \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
-    ],
-    [
-      0.051520,
-      "\u0008Greeter.java\u001b[1P \u001b[A\r\u001b[1;32mcchampeau@cedric-xps15\u001b[01;34m step5 \u001b[31m \u001b[00m$\u001b[00m \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
-    ],
-    [
-      0.051456,
-      "\u0008Greeter.java \u001b[K\u001b[A\r\u001b[1;32mcchampeau@cedric-xps15\u001b[01;34m step5 \u001b[31m \u001b[00m$\u001b[00m \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
-    ],
-    [
-      0.051572,
-      "\u0008Greeter.java  \r\u001b[K\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
-    ],
-    [
-      0.153315,
-      "\u0008\u001b[1P\r\n"
-    ],
-    [
-      0.000010,
-      "\r\u001b[K\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
-    ],
-    [
-      0.156052,
-      "\u0008\u001b[1P"
-    ],
-    [
-      0.146601,
-      "\u0008\u001b[1P"
-    ],
-    [
-      0.220548,
-      "\r\n"
-    ],
-    [
-      0.010011,
-      "\u001b[?1049h\u001b[1;24r\u001b(B\u001b[m\u001b[4l\u001b[?7h\u001b[?12l\u001b[?25h"
-    ],
-    [
-      0.000044,
-      "\u001b[?1h\u001b="
-    ],
-    [
-      0.000041,
-      "\u001b[?1h\u001b="
-    ],
-    [
-      0.000006,
-      "\u001b[?1h\u001b="
-    ],
-    [
-      0.001606,
+      0.101606,
       "\u001b[39;49m\u001b[39;49m\u001b(B\u001b[m\u001b[H\u001b[2J\u001b(B\u001b[0;7m  GNU nano 2.2.6               File: core/src/main/java/com/acme/Greeter.java                                     \u001b[3;1H\u001b(B\u001b[0m\u001b[36mpackage\u001b[39m\u001b(B\u001b[m com.acme;\r\u001b[4d\u001b[36mimport\u001b[39m\u001b(B\u001b[m com.acme.internal.GreeterInternal;\r\u001b[6d\u001b[36mpublic\u001b[39m\u001b(B\u001b[m \u001b[36mclass\u001b[39m\u001b(B\u001b[m Greeter {\u001b[7;4H\u001b[36mpublic\u001b[39m\u001b(B\u001b[m String greet(String name) {\u001b[8;8H\u001b[31mreturn\u001b[39m\u001b(B\u001b[m \u001b[31m\"Hello \"\u001b[39m\u001b(B\u001b[m + GreeterInternal.normalize(name);\u001b[9;4H}\r\u001b[10d}\u001b[22;50H\u001b(B\u001b[0;7m[ Read 8 lines ]\r\u001b[23d^G\u001b(B\u001b[m Get Help\u001b[23;20H\u001b(B\u001b[0;7m^O\u001b(B\u001b[m WriteOut\u001b[23;39H\u001b(B\u001b[0;7m^R\u001b(B\u001b[m Read File\u001b[58G\u001b(B\u001b[0;7m^Y\u001b(B\u001b[m Prev Page\u001b[77G\u001b(B\u001b[0;7m^K\u001b(B\u001b[m Cut Text\u001b[23;96H\u001b(B\u001b[0;7m^C\u001b(B\u001b[m Cur Pos\r\u001b[24d\u001b(B\u001b[0;7m^X\u001b(B\u001b[m Exit\u001b[24;20H\u001b(B\u001b[0;7m^J\u001b(B\u001b[m Justify\u001b[24;39H\u001b(B\u001b[0;7m^W\u001b(B\u001b[m Where Is\u001b[24;58H\u001b(B\u001b[0;7m^V\u001b(B\u001b[m Next Page\u001b[77G\u001b(B\u001b[0;7m^U\u001b(B\u001b[m UnCut Text\u001b[96G\u001b(B\u001b[0;7m^T\u001b(B\u001b[m To Spell\r\u001b[3d"
     ],
     [

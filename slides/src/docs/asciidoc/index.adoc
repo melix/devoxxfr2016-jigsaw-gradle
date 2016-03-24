@@ -80,6 +80,17 @@ Death to *split packages*.
 * Find a _smooth migration path_
 * Prepare today, migrate when ready
 
+== What is Gradle?
+
+
+image::swearing_gradlephant.svg[]
+
+=== Emerge from Build Hell
+
+* Unified, fast, reproducible builds
+* Cross-platform
+* Language agnostic
+
 == Gradle's software model
 
 * Idea : we're building software, so let's model software

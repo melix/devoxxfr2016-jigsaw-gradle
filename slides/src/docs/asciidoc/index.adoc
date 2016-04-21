@@ -1,6 +1,6 @@
 = Résoudre le puzzle Jigsaw avec Gradle
-par Cédric Champeau (@CedricChampeau), Gradle Inc.
-2016-03-24
+Cédric Champeau (@CedricChampeau), Gradle Inc.
+2016-04-22
 :revnumber: {project-version}
 :example-caption!:
 ifndef::imagesdir[:imagesdir: images]
@@ -8,10 +8,17 @@ ifndef::sourcedir[:sourcedir: ../java]
 :deckjs_transition: fade
 :navigation:
 :menu:
-:goto:
 :status:
 :adoctor: http://asciidoctor.org/[Asciidoctor]
 :gradle: http://gradle.org[Gradle]
+
+++++
+<style>
+.asciinema-terminal.font-medium {
+  font-size: 16px;
+}
+</style>
+++++
 
 == Who am I
 
@@ -34,7 +41,23 @@ Misc OSS contribs (Gradle plugins, deck2pdf, jlangdetect, ...)'''
 }
 ----
 
-image::GradleLogoReg.png[]
+== Groovy in Action 2
+
+image:koenig2.png[]
+
+https://www.manning.com/books/groovy-in-action-second-edition
+
+Coupon: ctwdevoxxfr
+
+== What is Gradle?
+
+image::swearing_gradlephant.svg[]
+
+=== Emerge from Build Hell
+
+* Unified, fast, reproducible builds
+* Cross-platform
+* Language agnostic
 
 == Project Jigsaw
 
@@ -80,17 +103,6 @@ Death to *split packages*.
 * Find a _smooth migration path_
 * Prepare today, migrate when ready
 
-== What is Gradle?
-
-
-image::swearing_gradlephant.svg[]
-
-=== Emerge from Build Hell
-
-* Unified, fast, reproducible builds
-* Cross-platform
-* Language agnostic
-
 == Gradle's software model
 
 * Idea : we're building software, so let's model software
@@ -100,48 +112,23 @@ image::swearing_gradlephant.svg[]
 
 == A simple project
 
-++++
-<div id="player-container"></div>
-  <script>
-    asciinema_player.core.CreatePlayer('player-container', 'step1.json', { width: 114, height: 24, fontSize: 'medium' });
-  </script>
-++++
+screencast:step1[]
 
 == Internal APIs
 
-++++
-<div id="player-container2"></div>
-  <script>
-    asciinema_player.core.CreatePlayer('player-container2', 'step2.json', { width: 114, height: 24, fontSize: 'medium' });
-  </script>
-++++
+screencast:step2[]
 
 == Internal APIs maintenance nightmare
 
-++++
-<div id="player-container3"></div>
-  <script>
-    asciinema_player.core.CreatePlayer('player-container3', 'step3.json', { width: 114, height: 24, fontSize: 'medium' });
-  </script>
-++++
+screencast:step3[]
 
 == Declaring internal APIs
 
-++++
-<div id="player-container4"></div>
-  <script>
-    asciinema_player.core.CreatePlayer('player-container4', 'step4.json', { width: 114, height: 24, fontSize: 'medium' });
-  </script>
-++++
+screencast:step4[]
 
 == Compile avoidance
 
-++++
-<div id="player-container5"></div>
-  <script>
-    asciinema_player.core.CreatePlayer('player-container5', 'step5.json', { width: 114, height: 24, fontSize: 'medium' });
-  </script>
-++++
+screencast:step5[]
 
 === Compile avoidance benefits
 
@@ -154,12 +141,7 @@ image::swearing_gradlephant.svg[]
 
 == Declaring target platforms
 
-++++
-<div id="player-container6"></div>
-  <script>
-    asciinema_player.core.CreatePlayer('player-container6', 'step6.json', { width: 114, height: 24, fontSize: 'medium' });
-  </script>
-++++
+screencast:step6[]
 
 == Why does Gradle help?
 
@@ -169,16 +151,12 @@ image::swearing_gradlephant.svg[]
 
 == Trying it out
 
-++++
-<div id="player-container7"></div>
-  <script>
-    asciinema_player.core.CreatePlayer('player-container7', 'step7.json', { width: 114, height: 24, fontSize: 'medium' });
-  </script>
-++++
+screencast:step7[]
 
 == What's next?
 
 * Automatic toolchain selection
+* Support for `modulepath`
 * Support for `jimage` and `jlink`
 * Support for modulepath
 * Toolchain provisioning
@@ -199,7 +177,7 @@ image::GradleLogoLarge.png[]
 
 == Thank you!
 
-* Slides and code : https://github.com/melix/bzh2016-jigsaw-gradle
+* Slides and code : https://github.com/melix/devoxxfr2016-jigsaw-gradle
 * Gradle documentation : http://gradle.org/documentation/
 * State of the module system: http://openjdk.java.net/projects/jigsaw/spec/sotms
 * Follow me: http://twitter.com/CedricChampeau[@CedricChampeau]

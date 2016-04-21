@@ -212,7 +212,7 @@
     ],
     [
       0.106279,
-      "\u001b[9D\u001b[1m\u003e Configuring \u003e 2/3 projects \u003e :core \u003e Compiling /home/cchampeau/Documents/talks/breizhcamp2016/step4/core/build.\u001b[22m"
+      "\u001b[9D\u001b[1m\u003e Configuring \u003e 2/3 projects \u003e :core \u003e Compiling /home/cchampeau/Documents/talks/jigsawcamp2016/step4/core/build.\u001b[22m"
     ],
     [
       0.257118,
@@ -464,7 +464,7 @@
     ],
     [
       0.000082,
-      "/home/cchampeau/Documents/talks/breizhcamp2016/step4/cli/src/main/java/com/acme/cli/GreeterCli.java:4: error: package com.acme.i"
+      "/home/cchampeau/Documents/talks/jigsawcamp2016/step4/cli/src/main/java/com/acme/cli/GreeterCli.java:4: error: package com.acme.i"
     ],
     [
       0.000007,
@@ -492,7 +492,7 @@
     ],
     [
       0.078397,
-      "\u001b[44D/home/cchampeau/Documents/talks/breizhcamp2016/step4/cli/src/main/java/com/acme/cli/GreeterCli.java:26: error: cannot find "
+      "\u001b[44D/home/cchampeau/Documents/talks/jigsawcamp2016/step4/cli/src/main/java/com/acme/cli/GreeterCli.java:26: error: cannot find "
     ],
     [
       0.000011,
